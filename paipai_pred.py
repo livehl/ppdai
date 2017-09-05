@@ -7,7 +7,7 @@ from keras.models import load_model
 import numpy
 
 #加载模型
-model=load_model('ppd.h5')
+model=load_model('/opt/ppd.h5')
 
 #数据预测
 @post('/predict')
