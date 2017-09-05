@@ -1,4 +1,3 @@
-from __future__ import print_function
 #http
 from bottle import run,post,request
 #神经网络
